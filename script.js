@@ -99,9 +99,9 @@ window.onload = function(){
                 total += 1 * parseFloat(minionNum) * parseFloat(soilPrice[0])
             }
 
-            document.getElementById('diamond_spreadingNum').textContent = `x${1072 * parseFloat(minionNum)}`;
-            document.getElementById('diamond_spreadingPrice').textContent = abbrNum(1072 * parseFloat(minionNum) * parseFloat(spreadingPrice[1]), 1);
-            total += 1072 * parseFloat(minionNum) * parseFloat(spreadingPrice[1]);
+            document.getElementById('diamond_spreadingNum').textContent = `x${1 * parseFloat(minionNum)}`;
+            document.getElementById('diamond_spreadingPrice').textContent = abbrNum(1 * parseFloat(minionNum) * parseFloat(spreadingPrice[1]), 1);
+            total += 1 * parseFloat(minionNum) * parseFloat(spreadingPrice[1]);
 
             document.getElementById('total_coinsPrice').textContent = abbrNum(total, 1)
         })
