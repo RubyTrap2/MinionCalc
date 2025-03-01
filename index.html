@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slime Minion Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <p id="headerTxt">Slime Minion Calculator</p>
+    </div>
+    <div id="bodyDiv">
+        <div id="numMinionDiv">
+            <p class="inputTxt">Number of Minions</p>
+            <input type="text" id="numMinionInput">
+        </div>
+        <div id="plasmaBucketDiv">
+            <p class="checkboxTxt">Plasma Bucket</p>
+            <input type="checkbox" id="plasmaBucketCheckbox">
+        </div>
+        <div id="enchantedHopperDiv">
+            <p class="checkboxTxt">Enchanted Hopper</p>
+            <input type="checkbox" id="enchantedHopperCheckbox">
+        </div>
+        <div id="corruptSoilDiv">
+            <p class="checkboxTxt">Corrupt Soil</p>
+            <input type="checkbox" id="corruptSoilCheckbox">
+        </div>
+        <button id="calculateBtn">Calculate</button>
+    </div>
+
+
+    <div id="resultDiv">
+        <div class="itemDiv">
+            <div class="imgNum">
+                <div class="imgDiv">
+                    <p class="itemName">Slimeball</p>
+                    <img class="itemImg" src="./Images/slimeball.png">
+                </div>
+                <p class="itemNum" id="slimeballNum"></p>
+            </div>
+            <p class="itemPrice" id="slimeballPrice"></p>
+        </div>
+
+        <div class="itemDiv">
+            <div class="imgNum">
+                <div class="imgDiv">
+                    <p class="itemName">Enchanted Slimeball</p>
+                    <img class="itemImg" src="./Images/enchanted_slimeball.gif">
+                </div>
+                <p class="itemNum" id="enchanted_slimeballNum"></p>
+            </div>
+            <p class="itemPrice" id="enchanted_slimeballPrice"></p>
+        </div>
+
+        <div class="itemDiv">
+            <div class="imgNum">
+                <div class="imgDiv">
+                    <p class="itemName">Enchanted Slimeblock</p>
+                    <img class="itemImg" src="./Images/enchanted_slime_block.gif">
+                </div>
+                <p class="itemNum" id="enchanted_slime_blockNum"></p>
+            </div>
+            <p class="itemPrice" id="enchanted_slime_blockPrice"></p>
+        </div>
+        
+        <div class="itemDiv">
+            <div class="imgNum">
+                <div class="imgDiv">
+                    <p class="itemName">Plasma Bucket</p>
+                    <img class="itemImg" src="./Images/plasma_bucket.gif">
+                </div>
+                <p class="itemNum" id="plasma_bucketNum">x0</p>
+            </div>
+            <p class="itemPrice" id="plasma_bucketPrice">0</p>
+        </div>
+
+        <div class="itemDiv">
+            <div class="imgNum">
+                <div class="imgDiv">
+                    <p class="itemName">Enchanted Hopper</p>
+                    <img class="itemImg" src="./Images/enchanted_hopper.gif">
+                </div>
+                <p class="itemNum" id="enchanted_hopperNum">x0</p>
+            </div>
+            <p class="itemPrice" id="enchanted_hopperPrice">0</p>
+        </div>
+
+        <div class="itemDiv">
+            <div class="imgNum">
+                <div class="imgDiv">
+                    <p class="itemName">Corrupt Soil</p>
+                    <img class="itemImg" src="./Images/corrupt_soil.png">
+                </div>
+                <p class="itemNum" id="corrupt_soilNum">x0</p>
+            </div>
+            <p class="itemPrice" id="corrupt_soilPrice">0</p>
+        </div>
+
+        <div class="itemDiv">
+            <div class="imgNum">
+                <div class="imgDiv">
+                    <p class="itemName">Diamond Spreading</p>
+                    <img class="itemImg" src="./Images/diamond_spreading.gif">
+                </div>
+                <p class="itemNum" id="diamond_spreadingNum"></p>
+            </div>
+            <p class="itemPrice" id="diamond_spreadingPrice"></p>
+        </div>
+
+        <div class="itemDiv">
+            <div class="imgNum">
+                <div class="imgDiv">
+                    <p class="itemName">Total Coins</p>
+                    <img class="itemImg" src="./Images/coin.webp">
+                </div>
+                <p class="itemNum"></p>
+            </div>
+            <p class="itemPrice" id="total_coinsPrice"></p>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

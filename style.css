@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+
+html {
+    background: url(./Images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 100%;
+}
+
+#header {
+    background-color: rgba(0, 208, 97, 0.4);
+    height: 16.7vh;
+}
+
+#headerTxt {
+    font-size: 8vw;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#bodyDiv {
+    display: flex;
+    height: 83.3vh;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.inputTxt {
+    font-size: 2.5rem;
+}
+
+#numMinionInput {
+    width: 20rem;
+    height: 2rem;
+    font-size: 2rem;
+}
+
+.checkboxTxt {
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+input[type=checkbox] {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#calculateBtn {
+    font-size: 2rem;
+    background-color: rgba(0, 208, 97, 0.4);
+    height: 80px;
+    width: 250px;
+}
+
+
+#resultDiv {
+    min-height: 83.3vh;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.itemDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.imgNum {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.itemImg {
+    width: 5rem
+}
+
+.itemName {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    width: 5rem;
+    display: block;
+}
+
+.itemNum {
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+}
+
+.itemPrice {
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+}
